@@ -1,0 +1,23 @@
+# static void DISCNT() {
+        Scanner input = new Scanner(System.in);
+
+
+
+       System.out.print("Enter the number of tests: ");
+        int test_num = input.nextInt();
+
+
+
+       for (int i = 0; i < test_num; i++) {
+            System.out.print("\nEnter the discount value: ");
+            int dis = input.nextInt();
+
+
+
+           int price = 100 - dis;
+
+
+
+           System.out.println("The new price is " + price + ".");
+        }
+    }
